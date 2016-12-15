@@ -1,0 +1,23 @@
+{
+  "name": "asana-gitlab-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.campusjaeger.de:campusjaeger/asana-gitlab-sync.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asana": "^0.15.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "gitlab": "git@github.com:node-gitlab/node-gitlab.git#4aa5fd84d6",
+    "bluebird": "^2.3.0",
+    "hashmap": "^2.0.6"
+  }
+}
